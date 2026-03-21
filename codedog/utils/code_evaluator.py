@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.language_models.chat_models import BaseChatModel
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_core.output_parsers import PydanticOutputParser
+from langchain.output_parsers import PydanticOutputParser
 from pydantic import BaseModel, Field
 
 from codedog.utils.git_log_analyzer import CommitInfo

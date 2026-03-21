@@ -5,7 +5,7 @@ import inspect
 import os
 
 from langchain_core.language_models.chat_models import BaseChatModel
-from langchain_openai.chat_models import AzureChatOpenAI, ChatOpenAI
+from langchain.chat_models import ChatOpenAI, AzureChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage, BaseMessage
 from langchain_core.outputs import ChatGeneration, ChatResult
 from pydantic import Field, ConfigDict
