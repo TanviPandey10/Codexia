@@ -180,6 +180,4 @@ Final Year Project | AI + Full Stack Development
 
 ---
 
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
+ 
